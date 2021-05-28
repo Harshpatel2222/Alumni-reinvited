@@ -1,0 +1,258 @@
+/**********************************/
+
+
+/*********** Nav Bar CSS **********/
+
+
+/**********************************/
+
+.navbar {
+    position: relative;
+    transition: .5s;
+    z-index: 999;
+}
+
+.navbar.nav-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    transition: .5s;
+}
+
+.navbar .navbar-brand {
+    margin: 0;
+    color: #ffffff;
+    font-size: 45px;
+    line-height: 0px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-brand img {
+    max-width: 100%;
+    max-height: 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    padding: 10px 10px 8px 10px;
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #1179c4;
+    transition: none;
+}
+
+.navbar .dropdown-menu {
+    margin-top: 0;
+    border: 0;
+    border-radius: 0;
+    background: #f8f9fa;
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        position: absolute;
+        width: 100%;
+        top: 35px;
+        padding: 20px 60px;
+        background: rgba(9, 42, 73, .2)!important;
+        z-index: 9;
+    }
+    .navbar.nav-sticky {
+        padding: 10px 60px;
+        background: #092a49 !important;
+    }
+    .page .navbar {
+        background: #092a49 !important;
+    }
+    .navbar a.nav-link {
+        padding: 8px 15px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar {
+        padding: 15px;
+        background: #092a49 !important;
+    }
+    .navbar a.nav-link {
+        padding: 5px;
+    }
+    .navbar .dropdown-menu {
+        box-shadow: none;
+    }
+}
+
+
+/* Swiper css */
+
+html {
+    position: relative;
+    height: 100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper-pagination {
+    z-index: 100000;
+}
+
+.swiper-container .swiper-button-next {
+    color: rgb(8, 8, 8);
+}
+
+.swiper-container .swiper-button-prev {
+    color: rgb(8, 8, 8);
+}
+
+.swiper-container .swiper-pagination-bullet {
+    color: black;
+}
+
+.swiper-slide {
+    /* text-align: center; */
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-blend-mode: multiply;
+}
+
+.img1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+}
+
+.img2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+}
+
+.img3 {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+}
+
+.img4 {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+}
+
+.img5 {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+}
+
+.img6 {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+}
+
+.img7 {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+}
+
+.img8 {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+}
+
+.img9 {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10rem;
+    color: #ffdc74;
+}
+
+.section-sub-title {
+    margin-top: 1rem;
+    font-weight: normal;
+    color: white;
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 768px) {
+    .content-container {
+        font-size: 0.7rem;
+        padding: 4rem;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@keyframes linksFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes linksFadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes mainButtonIn {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
+
+@keyframes mainButtonOut {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}

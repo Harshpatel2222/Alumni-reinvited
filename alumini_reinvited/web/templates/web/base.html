@@ -1,1 +1,105 @@
-<h1>Base</h1>
+{% extends 'web/main.html' %} {% block body %} {% load static %}
+<!-- Swiper -->
+<div class="swiper-container">
+
+    <!--Swiper-->
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="image img1" style="background-image: url('{% static 'images/img1.jpg' %}');">
+                <div class="content-container">
+                    <div class="section-title">
+                        <h1>Lorem ipsum dolor sit</h1>
+                    </div>
+                    <div class="section-sub-title">
+                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odio quas quae ipsa quo fuga.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="image img2" style="background-image: url('{% static 'user_sys/images/bs2.png' %}');">
+                <div class="content-container">
+                    <div class="section-title">
+                        <h1>Lorem ipsum dolor sit amet.</h1>
+                    </div>
+                    <div class="section-sub-title">
+                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odio quas quae ipsa quo fuga.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="swiper-slide">
+            <div class="image img3" style="background-image: url('{% static 'user_sys/images/bs1.jpg' %}');">
+                <div class="content-container">
+                    <div class="section-title">
+                        <h1>Lorem ipsum dolor sit amet.</h1>
+                    </div>
+                    <div class="section-sub-title">
+                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odio quas quae ipsa quo fuga.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="swiper-slide">
+            <div class="image img4" style="background-image: url('{% static 'user_sys/images/bs2.png' %}');">
+                <div class="content-container">
+                    <div class="section-title">
+                        <h1>Lorem ipsum dolor sit amet.</h1>
+                    </div>
+                    <div class="section-sub-title">
+                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odio quas quae ipsa quo fuga.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="swiper-slide">
+            <div class="image img5" style="background-image: url('{% static 'user_sys/images/bs1.jpg' %}');">
+                <div class="content-container">
+                    <div class="section-title">
+                        <h1>Lorem ipsum dolor sit amet.</h1>
+                    </div>
+                    <div class="section-sub-title">
+                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odio quas quae ipsa quo fuga.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<!-- <script>
+    var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        speed: 1000,
+        direction: 'horizontal',
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        autoplay: {
+            delay: 5000,
+        },
+    });
+</script> -->
+
+{% endblock body %}
