@@ -1055,3 +1055,17 @@ About US CSS
         padding: 10px;
         margin-top: 10px;
     }
+    /* ----------
+
+    Jobs
+
+    ---------- */
+    
+    .jobs {
+        padding-top: 150px;
+    }
+    
+    .job-title {
+        color: #001d33;
+        padding-top: 30px;
+    }
