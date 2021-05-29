@@ -78,7 +78,7 @@ def register_view(request):
 
 def logoutUser(request):
 	logout(request)
-	return redirect('login')
+	return redirect('home_view')
 
 def team_view(request):
     context={}
