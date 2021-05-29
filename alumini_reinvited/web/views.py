@@ -9,3 +9,7 @@ def home_view(request):
 def profile_view(request):
     context={}
     return render(request, 'web/profile.html', context)
+
+def connections_view(request):
+    context={}
+    return render(request, 'web/connections.html', context)
