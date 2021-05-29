@@ -18,7 +18,9 @@
 ## How to Run?
 -  First check you have installed [python3](https://www.python.org/) or any latest version.
 -  Clone the project or download the code in the Folder where you want to run.
-     ```• $ git clone https://github.com/Harshpatel2222/Alumni-reinvited.git ```   
+
+     ```• $ git clone https://github.com/Harshpatel2222/Alumni-reinvited.git
+     ```   
      
 
 
