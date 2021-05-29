@@ -9,7 +9,12 @@
      • Easy way to connect all the students of various domains (Field of Study)
      • Other features such as organizing the events (Pursuing Students & Alumni) can be done
      • Information related to Jobs/Internships can also be shown
-
+     
+### WHY IT IS NECESSARY?
+     • Communication between students various batch can increase.
+     • can help in developing a guided career.
+     • It can help in networking and building a strong academic profile.
+     
 
      
 
