@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.contrib.auth.forms import UserCreationForm
 
 # Create your views here.
 
@@ -28,7 +29,14 @@ def contact_view(request):
 
 def sign_view(request):
     context={}
-    return render(request, 'web/sign.html', context)
+    return render(request, 'web/signin.html', context)
+
+def register_view(request):
+    form = UserCreationForm()
+    context={
+        'form' : form
+    }
+    return render(request, 'web/register.html', context)
 
 def team_view(request):
     context={}
