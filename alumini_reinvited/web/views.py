@@ -11,6 +11,7 @@ from django.contrib.auth.decorators import login_required
 # Create your views here.
 from .models import *
 from .forms import CreateUserForm
+from .forms import *
 
 
 def home_view(request):
@@ -83,3 +84,16 @@ def logoutUser(request):
 def team_view(request):
     context={}
     return render(request, 'web/team.html', context)
+
+def profile_form(request):
+    form = ProfileForm(request.POST or None)
+    if form.is_valid():
+        fs= form.save(commit=False)
+        fs.user= request.user
+        form.save()
+        form=ProfileForm()
+
+    context={
+        'form':form
+    }
+    return render(request, 'web/profile_form.html', context)
