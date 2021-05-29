@@ -49,7 +49,7 @@
             position: absolute;
             width: 100%;
             padding: 20px 60px;
-            background: rgba(2, 31, 58, 0.541)!important;
+            background: rgba(2, 31, 58, 0.904)!important;
             z-index: 9;
         }
         .navbar.nav-sticky {
@@ -1005,4 +1005,53 @@ About US CSS
         .our-team {
             margin-bottom: 30px;
         }
+    }
+    /* ---------------
+
+    Signin/Register
+
+    --------------- */
+    
+    .form_container {
+        margin-top: 20px;
+    }
+    
+    #form-title {
+        margin-top: 150px;
+        color: #001d33;
+    }
+    
+    .login_btn {
+        width: 100%;
+        background: #001d33 !important;
+        color: white !important;
+    }
+    
+    .login_btn:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    
+    .login_container {
+        padding: 0 2rem;
+    }
+    
+    .input-group-text {
+        background: #001d33 !important;
+        color: white !important;
+        border: 0 !important;
+        border-radius: 0.25rem 0 0 0.25rem !important;
+    }
+    
+    .input_user,
+    .input_pass:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    
+    #messages {
+        background-color: grey;
+        color: #fff;
+        padding: 10px;
+        margin-top: 10px;
     }
