@@ -20,6 +20,16 @@
 -  Clone the project or download the code in the Folder where you want to run.
 
      ```• $ git clone https://github.com/Harshpatel2222/Alumni-reinvited.git```
+
+- Insatall Virtual Environment and Run it before giving further command.
+
+-  Install Django using teminal window.
+
+     ```• $ pip install Django```
+     
+-  Run server using follwing command.
+
+     ```• $ python manage.py runserver```
        
      
 
