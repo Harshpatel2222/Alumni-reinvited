@@ -328,5 +328,9 @@ html {
 }
 
 .team .team-item:hover .team-text {
-    height: 160px;
+    height: 180px;
+}
+
+.team .section-header {
+    margin-top: 40px;
 }
