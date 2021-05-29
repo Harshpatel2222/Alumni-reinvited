@@ -334,3 +334,202 @@ html {
 .team .section-header {
     margin-top: 40px;
 }
+
+
+/*******************************/
+
+
+/*********** Blog CSS **********/
+
+
+/*******************************/
+
+.blog {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.blog .section-header {
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.blog .blog-carousel {
+    position: relative;
+    width: calc(100% + 30px);
+    left: -15px;
+    right: -15px;
+}
+
+.blog .blog-item {
+    position: relative;
+    margin: 0 15px;
+}
+
+.blog.blog-page .blog-item {
+    margin: -30px 0 0 0;
+}
+
+.blog .blog-img {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.blog .blog-img img {
+    width: 100%;
+}
+
+.blog .blog-content {
+    position: relative;
+    width: calc(100% - 60px);
+    top: -60px;
+    left: 30px;
+    padding: 25px 30px;
+    background: #ffffff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    z-index: 2;
+}
+
+.blog .blog-content h2.blog-title {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.blog .blog-meta {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.blog .blog-meta * {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #797979;
+}
+
+.blog .blog-meta i {
+    color: #0796fe;
+    margin: 0 2px 0 10px;
+}
+
+.blog .blog-meta i:first-child {
+    margin-left: 0;
+}
+
+.blog .blog-text {
+    position: relative;
+}
+
+.blog .blog-text p {
+    margin-bottom: 10px;
+}
+
+.blog .blog-item a.btn {
+    position: relative;
+    padding: 0 0 0 35px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #0796fe;
+    transition: .3s;
+}
+
+.blog .blog-item a.btn:hover {
+    color: #092a49;
+}
+
+.blog .blog-item a.btn::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 2px;
+    top: 10px;
+    left: 0;
+    background: #0796fe;
+}
+
+.blog .owl-nav {
+    position: relative;
+    width: 100%;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+}
+
+.blog .owl-nav .owl-prev,
+.blog .owl-nav .owl-next {
+    position: relative;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0796fe;
+    font-size: 25px;
+    transition: .3s;
+}
+
+.blog .owl-nav .owl-prev {
+    padding-right: 80px;
+}
+
+.blog .owl-nav .owl-next {
+    padding-left: 80px;
+}
+
+.blog .owl-nav .owl-prev:hover,
+.blog .owl-nav .owl-next:hover {
+    color: #092a49;
+}
+
+.blog .owl-nav .owl-prev::after,
+.blog .owl-nav .owl-next::after {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 3px;
+    top: 11px;
+    background: #0796fe;
+    transition: .3s;
+}
+
+.blog .owl-nav .owl-prev::after {
+    left: 9px;
+}
+
+.blog .owl-nav .owl-next::after {
+    right: 9px;
+}
+
+.blog .owl-nav .owl-prev:hover::after {
+    background: #092a49;
+}
+
+.blog .owl-nav .owl-next:hover::after {
+    background: #092a49;
+}
+
+.blog .pagination {
+    margin-bottom: 0;
+}
+
+.blog .pagination .page-link {
+    margin-top: -30px;
+    color: #092a49;
+    border-radius: 0;
+    border-color: #092a49;
+}
+
+.blog .pagination .page-link:hover,
+.blog .pagination .page-item.active .page-link {
+    color: #0796fe;
+    background: #092a49;
+}
+
+.blog .pagination .disabled .page-link {
+    color: #999999;
+}

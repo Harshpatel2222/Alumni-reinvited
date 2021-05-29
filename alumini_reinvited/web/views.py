@@ -13,3 +13,7 @@ def profile_view(request):
 def connections_view(request):
     context={}
     return render(request, 'web/connections.html', context)
+
+def events_view(request):
+    context={}
+    return render(request, 'web/events.html', context)
