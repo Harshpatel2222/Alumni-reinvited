@@ -16,9 +16,9 @@
      • It can help in networking and building a strong academic profile.
      
 ## How to Run?
-- 1. First check you have installed [python3](https://www.python.org/) or any latest version.
-- 2. Clone the project or download the code in the Folder where you want to run.
-      • $ git clone https://github.com/Harshpatel2222/Alumni-reinvited.git   
+-  First check you have installed [python3](https://www.python.org/) or any latest version.
+-  Clone the project or download the code in the Folder where you want to run.
+     ```• $ git clone https://github.com/Harshpatel2222/Alumni-reinvited.git ```   
      
 
 
