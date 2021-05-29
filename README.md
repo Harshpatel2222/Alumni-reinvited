@@ -15,7 +15,8 @@
      • can help in developing a guided career.
      • It can help in networking and building a strong academic profile.
      
-
+### How to Run?
+     First check you have installed [Python3](https://www.python.org/) or any latest version.
      
 
 
