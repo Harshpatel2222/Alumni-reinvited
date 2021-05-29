@@ -716,3 +716,20 @@ img {
 .prof-skills {
     font-size: large;
 }
+
+
+/* -----------
+
+About US CSS 
+
+-------------- */
+
+.about {
+    color: #092a49;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.about h1 {
+    margin-bottom: 20px;
+}
