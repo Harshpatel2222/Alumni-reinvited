@@ -48,20 +48,12 @@
     transition: none;
 }
 
-.navbar .dropdown-menu {
-    margin-top: 0;
-    border: 0;
-    border-radius: 0;
-    background: #f8f9fa;
-}
-
 @media (min-width: 992px) {
     .navbar {
         position: absolute;
         width: 100%;
-        top: 35px;
         padding: 20px 60px;
-        background: rgba(9, 42, 73, .2)!important;
+        background: rgba(2, 31, 58, 0.719)!important;
         z-index: 9;
     }
     .navbar.nav-sticky {

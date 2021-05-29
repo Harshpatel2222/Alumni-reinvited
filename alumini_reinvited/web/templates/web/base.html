@@ -1,105 +1,73 @@
-{% extends 'web/main.html' %} {% block body %} {% load static %}
-<!-- Swiper -->
-<div class="swiper-container">
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
 
-    <!--Swiper-->
-    <div class="swiper-wrapper">
-        <div class="swiper-slide">
-            <div class="image img1" style="background-image: url('{% static 'images/img1.jpg' %}');">
-                <div class="content-container">
-                    <div class="section-title">
-                        <h1>Lorem ipsum dolor sit</h1>
-                    </div>
-                    <div class="section-sub-title">
-                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odio quas quae ipsa quo fuga.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="swiper-slide">
-            <div class="image img2" style="background-image: url('{% static 'images/img2.jpg' %}');">
-                <div class="content-container">
-                    <div class="section-title">
-                        <h1>Lorem ipsum dolor sit amet.</h1>
-                    </div>
-                    <div class="section-sub-title">
-                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odio quas quae ipsa quo fuga.
-                    </div>
-                </div>
-            </div>
-        </div>
+<head>
+    <meta charset="utf-8">
+    <title>Alumini Reinvited</title>
 
 
-        <div class="swiper-slide">
-            <div class="image img3" style="background-image: url('{% static 'images/img3.jpg' %}');">
-                <div class="content-container">
-                    <div class="section-title">
-                        <h1>Lorem ipsum dolor sit amet.</h1>
-                    </div>
-                    <div class="section-sub-title">
-                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odio quas quae ipsa quo fuga.
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
+
+    <!-- swipper css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
 
 
-        <div class="swiper-slide">
-            <div class="image img4" style="background-image: url('{% static 'images/img4.jpg' %}');">
-                <div class="content-container">
-                    <div class="section-title">
-                        <h1>Lorem ipsum dolor sit amet.</h1>
-                    </div>
-                    <div class="section-sub-title">
-                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odio quas quae ipsa quo fuga.
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">Alumini Reinvited</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-
-        <div class="swiper-slide">
-            <div class="image img5" style="background-image: url('{% static 'images/img5.jpg' %}');">
-                <div class="content-container">
-                    <div class="section-title">
-                        <h1>Lorem ipsum dolor sit amet.</h1>
-                    </div>
-                    <div class="section-sub-title">
-                        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odio quas quae ipsa quo fuga.
-                    </div>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Profile</a>
+                    <a href="feature.html" class="nav-item nav-link">Connections</a>
+                    <a href="advisor.html" class="nav-item nav-link">Jobs</a>
+                    <a href="review.html" class="nav-item nav-link">Events</a>
+                    <a href="review.html" class="nav-item nav-link">Sign In/Sign Up</a>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-</div>
 
-<!-- Swiper JS -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<!-- Initialize Swiper -->
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        loop: true,
-        speed: 1000,
-        direction: 'horizontal',
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev"
-        },
-        pagination: {
-            el: '.swiper-pagination',
-        },
-        autoplay: {
-            delay: 5000,
-        },
-    });
-</script>
 
-{% endblock body %}
+
+    {% block body %}{% endblock body %}
+
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+
+
+    <script src="{% static 'js/main.js' %}"></script>
+
+</body>

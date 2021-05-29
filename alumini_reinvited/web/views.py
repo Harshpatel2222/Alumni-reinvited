@@ -9,7 +9,3 @@ def home_view(request):
 def profile_view(request):
     context={}
     return render(request, 'web/profile.html', context)
-
-def base_view(request):
-    context={}
-    return render(request, 'web/base.html', context)
