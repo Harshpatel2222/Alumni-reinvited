@@ -32,5 +32,10 @@
      ```• $ python manage.py runserver```
        
      
-We have Made this Project During CICADA 3301 Hackathon.
+## We have Made this Project During CICADA 3301 Hackathon.
 
+### Contributors
+
+<a href="https://github.com/Harshpatel2222/Alumni-reinvited/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Harshpatel2222/Alumni-reinvited" />
+</a>
