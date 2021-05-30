@@ -32,7 +32,7 @@
      ```• $ python manage.py runserver```
        
      
-## We have Made this Project During CICADA 3301 Hackathon.
+## This Project is made during CICADA 3301 Hackathon.
 
 ###  Description
 <img alt="Size" src="https://img.shields.io/github/repo-size/Harshpatel2222/Alumni-reinvited">
